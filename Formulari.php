@@ -36,11 +36,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   }
     
      if (empty($_POST["telefono"])) {
-                $telefonoErr = "El teléfono es obligatorio";
+                $telError = "El teléfono es obligatorio";
             } else if(preg_match('/[0-9]{9}/',"telefonos")){
-                $telefono = test_input($_POST["telefono"]);
+                $tel = test_input($_POST["telefono"]);
             }else {
-                $telefonoErr = "El teléfono no cumple con el patrón";
+                $telError = "El teléfono no cumple con el patrón";
             }
 }
 
