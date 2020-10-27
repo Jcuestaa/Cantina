@@ -10,7 +10,7 @@
     <title>CANTINA PEDRALBES</title>
 <style>
         #begudes{
-            background-color: aqua;
+            background-color: white;
             padding:25px;
             width: 400px;
             border: 1px solid #999999;
