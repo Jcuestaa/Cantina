@@ -73,7 +73,7 @@
                 <option>Zumo de Pera</option>
                 <option>Zumo de Uva</option>
             </select><input type="checkbox"></input></p>
-            <input type="checkbox"></input>
+
         </div>
     </from>
 
