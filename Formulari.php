@@ -16,14 +16,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   if (empty($_POST["nom"])) {
     $nomError = "Nom obligatori";
   } else {
-    $nom = test_input($_POST["Nom"]);
+    $nom = test_input($_POST["nom"]);
   }
   
   if (empty($_POST["tel"])) {
     $telError = "Telefon obligatori";
     }
     else if(preg_match('/[0-9]{9}/',"Telefons")){
-        $tel = test_input($_POST["Telefon"]);
+        $tel = test_input($_POST["tel"]);
     }
     else {
         $telError = "No es correcte el numero de telefon";
@@ -32,7 +32,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   if (empty($_POST["email"])) {
       $emailError = "Email obligatori";
   } else {
-    $email = test_input($_POST["Email"]);
+    $email = test_input($_POST["email"]);
   }
     
 }
@@ -55,7 +55,7 @@ function test_input($data) {
   <span class="error">* <?php echo $emailError;?></span>
   <br><br>
   Telefon: <input type="text" name="tel">
-  <span class="error"><?php echo $telError;?></span>
+  <span class="error">*<?php echo $telError;?></span>
   <br><br>
   <input type="submit" name="submit" value="Submit">  
 </form>
