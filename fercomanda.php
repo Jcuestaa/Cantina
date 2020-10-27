@@ -16,6 +16,14 @@
     <div>
         <h1>BEGUDA</h1>
     </div>
+    <from>
+        <div>
+            BEGUDAS:
+            <select>
+                <option>Coca-Cola</option>
+            </select>
+        </div>
+    </from>
 
 </body>
 </html>
