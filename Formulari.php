@@ -9,7 +9,7 @@
 
 <?php
 
-$nomError = $emailError = $telErr = "";
+$nomError = $emailError = $telError = "";
 $nom = $email = $tel = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
