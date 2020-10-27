@@ -15,6 +15,11 @@
 </style>
 </head>
 <body>
+
+    <div id="logotipo">
+        <img src="imagenes/logo.jpg" width="270" height="80">
+    </div>
+    
     <div>
         <h1>BEGUDA</h1>
     </div>
@@ -30,7 +35,7 @@
                 <option>Aquarius</option>
             </select>
 
-            CAFES:
+            <p>CAFES:</p>
             <select>
                 <option>Cafe Solo</option>
                 <option>Cafe con Leche</option>
