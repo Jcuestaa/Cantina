@@ -52,6 +52,7 @@
                 <option>Nestea</option>
                 <option>Aquarius</option>
             </select>
+            <input type="checkbox"></input>
 
             <p>CAFES:
             <select>
@@ -61,6 +62,7 @@
                 <option>Cafe descafeinado</option>
                 <option>Cafe Cortado</option>
             </select></p>
+            <input type="checkbox"></input>
 
             <p>ZUMOS:
             <select>
@@ -71,6 +73,7 @@
                 <option>Zumo de Pera</option>
                 <option>Zumo de Uva</option>
             </select></p>
+            <input type="checkbox"></input>
         </div>
     </from>
 
