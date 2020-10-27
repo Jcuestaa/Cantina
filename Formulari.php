@@ -35,13 +35,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = test_input($_POST["Email"]);
   }
     
-     if (empty($_POST["telefono"])) {
-                $telError = "El teléfono es obligatorio";
-            } else if(preg_match('/[0-9]{9}/',"telefonos")){
-                $tel = test_input($_POST["telefono"]);
-            }else {
-                $telError = "El teléfono no cumple con el patrón";
-            }
 }
 
 function test_input($data) {
