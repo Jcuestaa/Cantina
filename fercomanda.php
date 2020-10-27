@@ -11,7 +11,12 @@
 <style>
         #refrescos{
             background-color: aqua;
+            padding:8px;
+            width: 200px;
+            border: 1px solid #999999;
         }
+
+
 
         h1 {
 
