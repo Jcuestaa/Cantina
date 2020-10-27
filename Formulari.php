@@ -54,7 +54,7 @@ function test_input($data) {
   E-mail: <input type="text" name="email">
   <span class="error">* <?php echo $emailError;?></span>
   <br><br>
-  Telefon: <input type="numeric" name="tel">
+  Telefon: <input type="text" name="tel">
   <span class="error"><?php echo $telError;?></span>
   <br><br>
   <input type="submit" name="submit" value="Submit">  
@@ -62,7 +62,7 @@ function test_input($data) {
 
 <?php
 echo "<h2>Your Input:</h2>";
-echo $name;
+echo $nom;
 echo "<br>";
 echo $email;
 echo "<br>";
