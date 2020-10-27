@@ -12,6 +12,14 @@
         #refrescos{
             background-color: aqua;
         }
+
+        h1 {
+
+            text-align: center;
+            font-size: 50px;
+            font: verdana;
+        }
+
 </style>
 </head>
 <body>
@@ -19,9 +27,11 @@
     <div id="logotipo">
         <img src="imagenes/logo.jpg" width="270" height="80">
     </div>
-    
     <div>
-        <h1>BEGUDA</h1>
+        <h1>CANTINA PEDRALBES</h1>
+    </div>
+    <div>
+        <h2>BEGUDA</h2>
     </div>
     <from>
         <div id="refrescos">
@@ -35,13 +45,13 @@
                 <option>Aquarius</option>
             </select>
 
-            <p>CAFES:</p>
+            <p>CAFES:
             <select>
                 <option>Cafe Solo</option>
                 <option>Cafe con Leche</option>
                 <option>Cafe descafeinado</option>
                 <option>Cafe Cortado</option>
-            </select>
+            </select></p>
         </div>
     </from>
 
