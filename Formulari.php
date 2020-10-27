@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   if (empty($_POST["tel"])) {
     $telError = "Telefon obligatori";
     }
-    else if(preg_match('/[0-9]{9}/',"Telefons")){
+    else if(preg_match('/[0-9]{9}/',"tel")){
         $tel = test_input($_POST["tel"]);
     }
     
@@ -51,7 +51,7 @@ function test_input($data) {
   E-mail: <input type="text" name="email">
   <span class="error">* <?php echo $emailError;?></span>
   <br><br>
-  Telefon: <input type="text" name="tel">
+  Telefon: <input type="numeric" name="tel">
   <span class="error">*<?php echo $telError;?></span>
   <br><br>
   <input type="submit" name="submit" value="Submit">  
