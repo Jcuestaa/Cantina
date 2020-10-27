@@ -24,10 +24,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
     else if(preg_match('/[0-9]{9}/',"Telefons")){
         $tel = test_input($_POST["tel"]);
-    }
-    else {
-        $telError = "No es correcte el numero de telefon";
-    }
     
   if (empty($_POST["email"])) {
       $emailError = "Email obligatori";
