@@ -47,8 +47,8 @@
                 <option>Ninguna</option>
                 <option>Coca-Cola</option>
                 <option>Coca-Cola Zero</option>
-                <option>Fanta de Taronja</option>
-                <option>Fanta de Llimona</option>
+                <option>Fanta de Naranja</option>
+                <option>Fanta de Limon</option>
                 <option>Nestea</option>
                 <option>Aquarius</option>
             </select>
@@ -60,6 +60,16 @@
                 <option>Cafe con Leche</option>
                 <option>Cafe descafeinado</option>
                 <option>Cafe Cortado</option>
+            </select></p>
+
+            <p>ZUMOS:
+            <select>
+                <option>Ninguna</option>
+                <option>Zumo de Naranja</option>
+                <option>Zumo de Melocoton</option>
+                <option>Zumo de Piña</option>
+                <option>Zumo de Pera</option>
+                <option>Zumo de Uva</option>
             </select></p>
         </div>
     </from>
