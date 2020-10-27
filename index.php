@@ -72,7 +72,7 @@
         <img src="imagenes/cantina3.jpg" width="600" height="400">
     </div>
     <div class="botones">
-        <button onclick="window.location.href='E:/2nDaw/PROJECTE/comprar.js'">COMPRAR</button>
+        <button onclick="window.location.href='E:/2nDaw/PROJECTE/comprar.js'">FER COMANDA</button>
         <button onclick="window.location.href='E:/2nDaw/PROJECTE/admin.html'">ADMIN</button>
     </div>
     <div id="contacte">
