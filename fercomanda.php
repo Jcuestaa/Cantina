@@ -28,6 +28,17 @@
                 <option>Aquarius</option>
             </select>
         </div>
+        <div>
+            REFRESCOS:
+            <select>
+                <option>Coca-Cola</option>
+                <option>Coca-Cola Zero</option>
+                <option>Fanta de Taronja</option>
+                <option>Fanta de Llimona</option>
+                <option>Nestea</option>
+                <option>Aquarius</option>
+            </select>
+        </div>
     </from>
 
 </body>
