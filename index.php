@@ -12,7 +12,7 @@
 
     <?php include("header.php")?>
 
-    <a href="fercomanda.php">FER COMANDA</a>
+    
 
     <?php include("footer.php")?>
 
