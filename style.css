@@ -7,6 +7,7 @@ h1 {
 h2{
     text-align: center;
     font-size: 24px;
+    margin-left: 50px;
 }
 b{
     color: blue;
@@ -46,13 +47,4 @@ button{
     border: 1px solid #999999;
     margin-left: 50px;
 }
-h2 {
-    margin-left: 50px;
-}
 
-h1 {
-
-    text-align: center;
-    font-size: 50px;
-    font: verdana;
-}
