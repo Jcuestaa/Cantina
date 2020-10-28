@@ -13,9 +13,9 @@
         <img src="imagenes/cantina3.jpg" width="600" height="400">
     </div>
     <div class="botones">
-        <button onclick="window.location.href='E:/2nDaw/PROJECTE/comprar.js'">FER COMANDA</button>
-        <button onclick="window.location.href='E:/2nDaw/PROJECTE/admin.html'">ADMIN</button>
+        <button onclick="window.location.href='fercomanda.php'">FER COMANDA</button>
+        <button onclick="window.location.href='E:/2nDaw/PROJECTE/comprar.js'">ADMIN</button>
     </div>
     <div id="contacte">
         <h2><b>TELÈFON:</b>932033332<b>CORREU:</b> inspedralbes@xtec.cat<b>HORARI:</b> 08:00h / 15:00h<b>ADREÇA:</b>Av. d'Esplugues, 36, 42, 08034 Barcelona</h2>
-    </div>
+</div>
