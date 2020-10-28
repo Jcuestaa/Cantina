@@ -9,23 +9,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CANTINA PEDRALBES</title>
 <style>
-        #begudes{
-            background-color: white;
-            padding:25px;
-            width: 400px;
-            border: 1px solid #999999;
-            margin-left: 50px;
-        }
-        h2 {
-            margin-left: 50px;
-        }
-
-        h1 {
-
-            text-align: center;
-            font-size: 50px;
-            font: verdana;
-        }
 
 </style>
 </head>
@@ -53,7 +36,7 @@
                 <option>Aquarius</option>
             </select>
             <input type="checkbox"></input>
-
+            
             <p>CAFES:
             <select>
                 <option>Ninguna</option>
@@ -76,7 +59,6 @@
 
         </div>
     </from>
-
 </body>
 </html>
 
