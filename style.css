@@ -1,0 +1,40 @@
+h1 {
+
+    text-align: center;
+    font-size: 50px;
+    font: verdana;
+}
+h2{
+    text-align: center;
+    font-size: 24px;
+}
+b{
+    color: blue;
+}
+
+#logotipo {
+
+    background-color: white;
+}
+
+button{ 
+    padding: 10px;
+    font-weight: 600;
+    margin: 100px;
+    font-size: 48px;
+    background-color: white;
+    margin-top: 50px;
+}
+
+.botones{
+    text-align: center;
+}
+
+#fotos{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#contacte {
+    background-color: rgb(180, 245, 239);
+}
