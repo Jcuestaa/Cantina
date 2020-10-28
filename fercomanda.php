@@ -17,11 +17,10 @@
     <div>
         <h1>CANTINA PEDRALBES</h1>
     </div>
-    <div>
-        <h2>BEGUDA</h2>
-    </div>
+
     <from>
         <div id="begudes">
+        <h2>BEGUDA</h2>
             REFRESCOS:
             <select>
                 <option>Ninguna</option>
