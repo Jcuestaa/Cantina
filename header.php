@@ -1,10 +1,9 @@
 <div id="logotipo">
     <img src="imagenes/logo.jpg" width="270" height="80">
-    <div id="portada">
         <p>INDEX</p>
         <p>MENU</p>
         <P>ADMINISTRACIÓ</P>
-    </div>
+
 </div>
 
 <div>
