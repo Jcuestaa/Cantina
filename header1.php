@@ -16,6 +16,18 @@
         
         <ul id="listaCompra"></ul>
         
+        <ul id="REFRESCOS">
+            <select>
+                <option>Ninguna</option>
+                <option>Coca-Cola</option>
+                <option>Coca-Cola Zero</option>
+                <option>Fanta de Naranja</option>
+                <option>Fanta de Limon</option>
+                <option>Nestea</option>
+                <option>Aquarius</option>
+            </select>
+            </ul>
+
         <p>Nota: Puedes eliminar elementos de la lista haciendo doble click sobre ellos</p>
        </div>
 
