@@ -11,12 +11,9 @@
 </head>
 <body>
 
-    <div id="logotipo">
-        <img src="imagenes/logo.jpg" width="270" height="80">
-    </div>
-    <div>
-        <h1>CANTINA PEDRALBES</h1>
-    </div>
+    <?php include("header.php")?>
+    
+    <?php include("footer.php")?>
 
     <from>
         <div id="begudes">
@@ -55,6 +52,9 @@
 
         </div>
     </from>
+
+    <button onclick="window.location.href='Formulari.php'">FINALITZA COMANDA</button>
+
 </body>
 </html>
 
