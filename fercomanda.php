@@ -7,7 +7,7 @@
     <title>CANTINA PEDRALBES</title>
 </head>
 <script>
-
+window.onload = function () {
 let baseDeDatos = [
     {
         id: 1,
