@@ -7,7 +7,7 @@
     <h1>CANTINA PEDRALBES</h1>
 </div>
 
-<div id="container">
+    <div id="container">
         <form action="#">
             <label for="anadir">Mi pedido</label>
             <input type="text" name="anadir" id="anadir">
@@ -17,6 +17,10 @@
         <ul id="listaCompra"></ul>
         
 
-        <p>Nota: Puedes eliminar elementos de la lista haciendo doble click sobre ellos</p>
-       </div>
 
+        <p>Nota: Puedes eliminar elementos de la lista haciendo doble click sobre ellos</p>
+    </div>
+
+    <div class="botones">
+        <button onclick="window.location.href='Formulari.php'">FINALITZA COMANDA</button>
+    </div>
