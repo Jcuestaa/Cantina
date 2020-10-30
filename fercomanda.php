@@ -11,7 +11,7 @@
     window.onload = init;
         function init(){
             botonEnvio = document.querySelector('[type="button"]');
-            nuevoItem = document.querySelector('[type="text"]');
+            listaCompra = document.getElementById("REFRESCOS");
             listaCompra = document.getElementById("listaCompra");
             
             botonEnvio.addEventListener("click",anadir);
