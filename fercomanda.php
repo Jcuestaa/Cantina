@@ -39,7 +39,7 @@
 
     <?php include("header1.php")?>
     
-    <button onclick="window.location.href='Formulari.php'">FINALITZA COMANDA</button>
+    
 
     <?php include("footer.php")?>
 
