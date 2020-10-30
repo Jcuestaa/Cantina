@@ -9,9 +9,43 @@
 
 <div id="container">
         <form action="#">
-            <label for="anadir">Mi lista de la compra:</label>
-            <input type="text" name="anadir" id="anadir">
-            <input type="button" value="Añadir a la lista">
+            <label for="anadir">Mi pedido</label>
+            <div id="begudes">
+        <h2>BEGUDA</h2>
+            REFRESCOS:
+            <select>
+                <option>Ninguna</option>
+                <option>Coca-Cola</option>
+                <option>Coca-Cola Zero</option>
+                <option>Fanta de Naranja</option>
+                <option>Fanta de Limon</option>
+                <option>Nestea</option>
+                <option>Aquarius</option>
+            </select>
+            <input type="checkbox"></input>
+            
+            <p>CAFES:
+            <select>
+                <option>Ninguna</option>
+                <option>Cafe Solo</option>
+                <option>Cafe con Leche</option>
+                <option>Cafe descafeinado</option>
+                <option>Cafe Cortado</option>
+            </select><input type="checkbox"></input></p>
+
+
+            <p>ZUMOS:
+            <select>
+                <option>Ninguna</option>
+                <option>Zumo de Naranja</option>
+                <option>Zumo de Melocoton</option>
+                <option>Zumo de Piña</option>
+                <option>Zumo de Pera</option>
+                <option>Zumo de Uva</option>
+            </select><input type="checkbox"></input></p>
+
+        </div>
+            <input type="button" value="Añadir al carrito">
         </form>    
         
         <ul id="listaCompra"></ul>
