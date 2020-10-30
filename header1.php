@@ -7,19 +7,20 @@
     <h1>CANTINA PEDRALBES</h1>
 </div>
 
-    <div id="container">
-        <form action="#">
-            <label for="anadir">Mi pedido</label>
-            <input type="text" name="anadir" id="anadir">
-            <input type="button" value="Añadir al carrito">
-        </form>    
-        
-        <ul id="listaCompra"></ul>
-        
+<div class="container">
+    <div class="row">
 
+        <main id="items" class="col-sm-8 row"></main>
 
-        <p>Nota: Puedes eliminar elementos de la lista haciendo doble click sobre ellos</p>
+        <aside class="col-sm-4">
+            <h2>Carrito</h2>
+            <ul id="carrito" class="list-group"></ul>
+            <hr>
+            <p class="text-right">Total: <span id="total"></span>&euro;</p>
+            <button id="boton-vaciar" class="btn btn-danger">Vaciar</button>
+        </aside>
     </div>
+</div>
 
     <div class="botones">
         <button onclick="window.location.href='Formulari.php'">FINALITZA COMANDA</button>
