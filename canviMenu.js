@@ -6,10 +6,10 @@ var s = document.createElement("script");
 s.type = "text/javascript";
 
 if(parseInt(horaActual .replace(regExp, "$1$2$3")) > parseInt(canviMenu .replace(regExp, "$1$2$3"))){
-    s.src = "../js/llista_menu_migdia.js";
+    s.src = "menuMigdia.js";
     $("head").append(s);
 } else {
-    s.src = "../js/llista_menu_mati.js";
+    s.src = "menuMati.js";
             $("head").append(s);
 }    
 
