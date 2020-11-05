@@ -16,7 +16,7 @@
     </script>
     </head>
 <body>
-    <div class="big_container">
+    <div class="glogal">
         <div id="header">
             <?php require "header.php" ?>
         </div>
