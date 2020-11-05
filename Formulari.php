@@ -35,6 +35,7 @@
                         <input id="totalItems" name="totalItems" type="hidden" value="">
                     </p>
                 </form>
+                
                 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
 
                 <script src="validarEmail.js"></script>
