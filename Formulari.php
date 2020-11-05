@@ -1,72 +1,53 @@
-<!DOCTYPE HTML>  
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<style>
-.error {color: #FF0000;}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dades comanda</title>
 </head>
-<body>  
+<body>
+    <div class="global">
+        <div id="header">
+            <?php require "header.php" ?>
+        </div>
 
-<?php
+        <div id="container_detalls">
+            <div id="dades_client">
+                
+                <form action="comandaok.php" method="post">
+                    <p>
+                        <input type="text" name="nom" placeholder="Nom i cognoms" pattern="[a-zA-ZñÑáéíóúÁÉÍÓÚ\s]+" required>
+                    </p>
+                    <p>
+                        <input type="text" name="Tel" placeholder="Telèfon" minlength=9 maxlength=9 pattern=".{9,}" required>
+                    </p>
+                    <p>
+                        <input type="text" name="email" placeholder="Email" required>
+                    </p>
+                    <p>
+                        <input id="myForm" class="buttonB" type="submit" value="ENVIAR I CONTINUAR">
+                    </p>
+                    <p>
+                        <input id="listaItems" name="listaItems" type="hidden" value="">
+                    </p>
+                    <p>
+                        <input id="totalItems" name="totalItems" type="hidden" value="">
+                    </p>
+                </form>
+                <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
 
-$nomError = $emailError = $telError = "";
-$nom = $email = $tel = "";
-
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  if (empty($_POST["nom"])) {
-    $nomError = "Nom obligatori";
-  } else {
-    $nom = test_input($_POST["nom"]);
-  }
-  
-  if (empty($_POST["tel"])) {
-    $telError = "Telefon obligatori";
-    }
-    else if(preg_match('/[0-9]{9}/',"tel")){
-        $tel = test_input($_POST["tel"]);
-    }
+                <script src="validarEmail.js"></script>
+            </div>
+            </div>
+        </div>
     
-  if (empty($_POST["email"])) {
-      $emailError = "Email obligatori";
-  } else {
-    $email = test_input($_POST["email"]);
-  }
-    
-}
+        <div class="container">
+            <?php require "footer.php" ?>
+        </div>
+    </div>
 
-function test_input($data) {
-  $data = trim($data);
-  $data = stripslashes($data);
-  $data = htmlspecialchars($data);
-  return $data;
-}
-?>
-
-<h2>Dades per Comanda</h2>
-<p><span class="error">* required field</span></p>
-<form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">  
-  Nom: <input type="text" name="nom">
-  <span class="error">* <?php echo $nomError;?></span>
-  <br><br>
-  E-mail: <input type="text" name="email">
-  <span class="error">* <?php echo $emailError;?></span>
-  <br><br>
-  Telefon: <input type="numeric" name="tel">
-  <span class="error">*<?php echo $telError;?></span>
-  <br><br>
-  <input type="submit" name="submit" value="Submit">  
-</form>
-
-<?php
-echo "<h2>Your Input:</h2>";
-echo $nom;
-echo "<br>";
-echo $email;
-echo "<br>";
-echo $tel;
-echo "<br>";
-
-?>
-
+    <script src="canviMenu.js"></script>
 </body>
 </html>
+
