@@ -12,8 +12,11 @@ Estat “breu” del projecte
   - Disseny de la pagina (En curs) Jorge
   - Estructura de la pàgina (En curs) Aleix
   - Programacio dels botons (Pendent) Jorge
-  - Programacio pagina (PHP) (Pendent) Aleix
+  - Programacio Menú (PHP, JS) (Pendent) Aleix
+  - Cookies (Fet) Jorge
+  -Formulari (Fet) Jorge
   
 Adreça web de la documentació phpdoc (labs.iam.cat)
 Adreça web del projecte desplegat (labs.iam.cat)
+
 
